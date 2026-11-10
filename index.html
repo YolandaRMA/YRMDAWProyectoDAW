@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -5,14 +6,14 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/png" href="webroot/favicón/favicon-32x32.png">
-        <title>Yolanda Rodriguez - DAW2</title>
-        <!-- Vinculo la hoja de estilos CSS -->
+        <title>Yolanda Rodríguez | Desarrollo de Aplicaciones Web</title>
         <link rel="stylesheet" href="webroot/css/estilos.css">
     </head>
 
     <body>
+
         <nav>
-            <div class="menu"> 
+            <div class="menu">
                 <a href="../YRMDWESProyectoDWES/indexProyectoDWES.php">DWES</a>
                 <a href="#a2">DWEC</a>
                 <a href="./YRMCIBProyectoCIB/indexProyectoCIB.php">CIB</a>
@@ -23,39 +24,132 @@
                 <a href="#a8">SASP</a>
             </div>
 
-            <div class="contacto">
-                <a href="#contacto">Contacto</a>
-            </div>
+            <a href="#contacto" class="contacto">Contacto <span>↗</span></a>
         </nav>
+
         <header>
-            <img src="/webroot/images/fondo.jpg" alt="Cabecera de la pag" id="fondo">
+            <img src="webroot/images/fondo.jpg"
+                 alt="Desarrollo de aplicaciones web - Portfolio de Yolanda Rodríguez"
+                 id="fondo">
         </header>
-        <main> <div id="tituloprincipal">
-                <!-- nombre e id para dar estilos -->
-                <h1>Página Web 2º de DAW</h1>
-            </div>
-            <section class="asignaturas">
-                <h2> Asignaturas </h2>
-                <ul id="asig">
-                    <li class="a1"><a href="../../YRMDWESProyectoDWES/indexProyectoDWES.php" target="_blank">Desarrollo web entorno servidor</a></li>
-                    <li class="a2">Desarrollo web entorno cliente</li>
-                    <li class="a3"><a href="../../YRMCIBProyectoCIB/indexProyectoCIB.php" target="_blank">Fundamentos de ciberseguridad</a></li>
-                    <li class="a4">Diseño interfaces web</li>
-                    <li class="a5">Despliegue aplicaciones web</li>
-                    <li class="a6">Itinerario para la empleabilidad</li>
-                    <li class="a7">Digitalización</li>
-                    <li class="a8">Sostenibilidad</li>
-                </ul>
+
+        <main>
+
+            <section id="tituloprincipal">
+                <p class="subtitulo">PORTFOLIO ACADÉMICO · 2026 / 2027</p>
+                <h1>Desarrollo de aplicaciones web</h1>
+                <p class="descripcion">
+                    Aprendizaje, tecnología y desarrollo de proyectos.
+                </p>
             </section>
+
+            <section class="asignaturas">
+
+                <div class="encabezado-asignaturas">
+                    <div>
+                        <p class="subtitulo">FORMACIÓN ACADÉMICA</p>
+                        <h2>Áreas de estudio</h2>
+                    </div>
+
+                    <span class="contador">02 / DAW</span>
+                </div>
+
+                <ul id="asig">
+
+                    <li class="tarjeta">
+                        <span class="numero">01</span>
+                        <span class="categoria">SERVIDOR</span>
+                        <a href="../../YRMDWESProyectoDWES/indexProyectoDWES.php">
+                            Desarrollo web en entorno servidor
+                            <span class="flecha">↗</span>
+                        </a>
+                    </li>
+
+                    <li class="tarjeta" id="a2">
+                        <span class="numero">02</span>
+                        <span class="categoria">CLIENTE</span>
+                        <span class="nombre-asignatura">
+                            Desarrollo web en entorno cliente
+                        </span>
+                    </li>
+
+                    <li class="tarjeta">
+                        <span class="numero">03</span>
+                        <span class="categoria">SEGURIDAD</span>
+                        <a href="../../YRMCIBProyectoCIB/indexProyectoCIB.php">
+                            Fundamentos de ciberseguridad
+                            <span class="flecha">↗</span>
+                        </a>
+                    </li>
+
+                    <li class="tarjeta" id="a4">
+                        <span class="numero">04</span>
+                        <span class="categoria">DISEÑO</span>
+                        <span class="nombre-asignatura">
+                            Diseño de interfaces web
+                        </span>
+                    </li>
+
+                    <li class="tarjeta" id="a5">
+                        <span class="numero">05</span>
+                        <span class="categoria">SISTEMAS</span>
+                        <span class="nombre-asignatura">
+                            Despliegue de aplicaciones web
+                        </span>
+                    </li>
+
+                    <li class="tarjeta" id="a6">
+                        <span class="numero">06</span>
+                        <span class="categoria">PROFESIONAL</span>
+                        <span class="nombre-asignatura">
+                            Itinerario para la empleabilidad
+                        </span>
+                    </li>
+
+                    <li class="tarjeta" id="a7">
+                        <span class="numero">07</span>
+                        <span class="categoria">TECNOLOGÍA</span>
+                        <span class="nombre-asignatura">
+                            Digitalización
+                        </span>
+                    </li>
+
+                    <li class="tarjeta" id="a8">
+                        <span class="numero">08</span>
+                        <span class="categoria">RESPONSABILIDAD</span>
+                        <span class="nombre-asignatura">
+                            Sostenibilidad
+                        </span>
+                    </li>
+
+                </ul>
+
+            </section>
+
         </main>
-        <footer>        
-            <!-- Línea separadora -->
-            <hr class="footer-separator">
-            <!-- Texto del footer debajo de la línea -->
-            <div class="footer-text">
-                <p>2026-27 IES Los Sauces. &#169; Todos los derechos reservados. Yolanda Rodríguez Moreno</p>
-                <time datetime="2026-04-29">Última actualización: 30 de Septiembre de 2026</time>
+
+        <footer id="contacto">
+
+            <div class="footer-contenido">
+                <div class="footer-identidad">
+                    <span class="footer-iniciales">YR.</span>
+                    <span>Desarrollo de aplicaciones web</span>
+                </div>
+
+                <div class="footer-datos">
+                    <p>Yolanda Rodríguez Moreno</p>
+                    <p>2026-27 · IES Los Sauces</p>
+                    <time datetime="2026-09-30">
+                        Última actualización: 10 de Octubre de 2026
+                    </time>
+                </div>
             </div>
+
+            <div class="footer-final">
+                <span>© 2026-27 Todos los derechos reservados</span>
+                <span>Diseñado y desarrollado por Yolanda Rodríguez</span>
+            </div>
+
         </footer>
 
     </body>
