@@ -213,7 +213,7 @@ main {
     font-size: 1.1rem;
 }
 
-/* Mantiene la identidad del proyecto y distribuye el pie de página */
+/* Organiza la identidad, los enlaces y la información del pie de página */
 footer {
     background-color: var(--negro);
     color: #ccc;
@@ -255,6 +255,13 @@ footer {
     color: var(--blanco);
 }
 
+.enlaces-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
 .github-footer {
     display: flex;
     align-items: center;
@@ -267,28 +274,40 @@ footer {
 }
 
 .github-footer img {
-    width: 34px;
-    height: 34px;
+    width: 30px;
+    height: 30px;
     object-fit: contain;
+}
+
+.enlace-index {
+    color: var(--blanco);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.enlace-index:hover {
+    color: var(--rosa);
 }
 
 .actualizacion-footer {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 7px;
-    text-align: right;
+    text-align: center;
     line-height: 1.5;
+    margin-top: 20px;
 }
 
 .derechos-footer {
     text-align: center;
     border-top: 1px solid #444;
-    margin-top: 22px;
+    margin-top: 18px;
     padding-top: 15px;
     color: #999;
 }
 
-/* Reorganiza los bloques para mantener la lectura en pantallas pequeñas */
+/* Adapta la distribución a pantallas pequeñas */
 @media (max-width: 700px) {
     header {
         padding: 22px 20px;
@@ -308,15 +327,15 @@ footer {
 
     .contenido-footer {
         flex-direction: column;
-        text-align: center;
-    }
-
-    .actualizacion-footer {
-        text-align: center;
+        gap: 20px;
     }
 
     .identidad-footer {
         justify-content: center;
+    }
+
+    .actualizacion-footer {
+        text-align: center;
     }
 }
 

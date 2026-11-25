@@ -90,31 +90,37 @@
             </article>
         </section>
     </main>
-    <footer>
-        <div class="contenido-footer">
-            <div class="identidad-footer">
-                <span class="logo-footer">YR.</span>
-                <div class="nombre-footer">
-                    <strong>Desarrollo de aplicaciones web</strong>
-                    <span>Yolanda Rodríguez Moreno</span>
-                </div>
+<footer>
+    <div class="contenido-footer">
+
+        <div class="identidad-footer">
+            <span class="logo-footer">YR.</span>
+            <div class="nombre-footer">
+                <strong>Desarrollo de aplicaciones web</strong>
+                <span>Yolanda Rodríguez Moreno</span>
             </div>
-            <a class="github-footer"
-               href="https://github.com/YolandaRMA/YRMDWESProyectoDWES"
+        </div>
+
+        <div class="enlaces-footer">
+            <a href="https://github.com/YolandaRMA/YRMDWESProyectoDWES"
                target="_blank"
                rel="noopener noreferrer"
-               title="Consultar repositorio en GitHub">
-                <img src="webroot/images/iconoGitHub.png"
-                     alt="Repositorio de GitHub">
+               class="github-footer">
+                <img src="webroot/images/iconoGitHub.png" alt="Repositorio de GitHub">
             </a>
-            <div class="actualizacion-footer">
-                <span>2026-27 · IES Los Sauces</span>
-                <span>Última actualización: 25 de Noviembre de 2026</span>
-            </div>
+            <a href="../index.html" class="enlace-index">Home</a>
         </div>
-        <div class="derechos-footer">
-            © 2026-27 Todos los derechos reservados
-        </div>
-    </footer>
+
+    </div>
+
+    <div class="actualizacion-footer">
+        <span>2026-27 · IES Los Sauces</span>
+        <span>Última actualización: 25 de Noviembre de 2026</span>
+    </div>
+
+    <div class="derechos-footer">
+        © Todos los derechos reservados
+    </div>
+</footer>
 </body>
 </html>
