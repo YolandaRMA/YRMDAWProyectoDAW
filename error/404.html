@@ -1,0 +1,208 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error 404 - Página no encontrada</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background-color: #f3e8e8;
+            color: #333;
+        }
+
+        /* HEADER */
+        header {
+            background-color: #171717;
+            color: white;
+            text-align: center;
+            padding: 25px 20px;
+        }
+
+        header h1 {
+            font-size: 1.3rem;
+            font-weight: normal;
+            letter-spacing: 2px;
+        }
+
+        /* CONTENIDO PRINCIPAL */
+        main {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, #f3e5e5, #e8eee8, #f5eee5);
+        }
+
+        .contenedor-error {
+            background-color: white;
+            max-width: 550px;
+            width: 100%;
+            padding: 50px 35px;
+            text-align: center;
+            border-radius: 18px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+        }
+
+        .numero-error {
+            font-size: 6rem;
+            font-weight: bold;
+            color: #c58f9e;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #444;
+            font-size: 1.7rem;
+            margin-bottom: 18px;
+        }
+
+        .contenedor-error p {
+            color: #777;
+            line-height: 1.7;
+            margin-bottom: 25px;
+        }
+
+        .contenedor-error a {
+            display: inline-block;
+            text-decoration: none;
+            background-color: #c58f9e;
+            color: white;
+            padding: 13px 28px;
+            border-radius: 25px;
+            transition: background-color 0.3s;
+        }
+
+        .contenedor-error a:hover {
+            background-color: #a96f80;
+        }
+
+        /* FOOTER */
+        footer {
+            background-color: #171717;
+            color: #ccc;
+            padding: 25px 35px 15px;
+            font-size: 0.85rem;
+        }
+
+        .contenido-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .identidad-footer {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo-footer {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: white;
+            border-right: 1px solid #666;
+            padding-right: 15px;
+        }
+
+        .nombre-footer {
+            line-height: 1.7;
+        }
+
+        .nombre-footer strong {
+            color: white;
+        }
+
+        .actualizacion-footer {
+            text-align: right;
+            line-height: 1.8;
+        }
+
+        .derechos-footer {
+            text-align: center;
+            border-top: 1px solid #444;
+            margin-top: 20px;
+            padding-top: 15px;
+            color: #999;
+        }
+
+        /* ADAPTACIÓN A MÓVILES */
+        @media (max-width: 600px) {
+            .numero-error {
+                font-size: 4.5rem;
+            }
+
+            .contenedor-error {
+                padding: 35px 20px;
+            }
+
+            .contenido-footer {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .identidad-footer {
+                justify-content: center;
+            }
+
+            .actualizacion-footer {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>DESARROLLO DE APLICACIONES WEB</h1>
+    </header>
+    <main>
+        <div class="contenedor-error">
+            <div class="numero-error">404</div>
+
+            <h2>¡Vaya! Página no encontrada</h2>
+
+            <p>
+                Parece que la página que estás buscando no existe,
+                ha cambiado de dirección o ya no está disponible.
+                No te preocupes, puedes volver al inicio.
+            </p>
+            <a href="index.html">Volver al inicio</a>
+        </div>
+    </main>
+    <footer>
+        <div class="contenido-footer">
+
+            <div class="identidad-footer">
+                <div class="logo-footer">YR.</div>
+
+                <div class="nombre-footer">
+                    <strong>Desarrollo de aplicaciones web</strong><br>
+                    Yolanda Rodríguez Moreno
+                </div>
+            </div>
+            <div class="actualizacion-footer">
+                2026-27 · IES Los Sauces<br>
+                Última actualización: 25 de Noviembre de 2026
+            </div>
+        </div>
+        <div class="derechos-footer">
+            © 2026-27 Todos los derechos reservados
+        </div>
+    </footer>
+</body>
+</html>
